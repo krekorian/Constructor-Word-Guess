@@ -69,7 +69,7 @@ function guessGame() {
                             // Call the function for the next word
                             guessGame()
                         } else {
-                            console.log("Sorry, you lose!\n");
+                            console.log("Sorry, you lost, try anothre word\n");
                             //Pick a new team
                             pickTeam();
                             //restart the game
